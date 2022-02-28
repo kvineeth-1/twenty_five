@@ -1,0 +1,94 @@
+.box1{
+    background-image:linear-gradient(to left, green, yellow);
+    float: left;
+    width: 40%;
+
+    height: 50px;
+}
+.box2{
+    background-image: radial-gradient(red,white);
+    clear: left;
+    float: right;
+    width: 40%;
+    height: 50px;
+
+}
+.box3{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    background-color: red;
+    padding: 10px;
+    box-sizing: content-box;
+   
+}
+.box4{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color:black;
+    color: white;
+    box-sizing: border-box;
+}
+.boxes{
+    height: 200px;
+    width: 200px;
+    margin-left: 200px;
+    position: absolute;
+}
+.boxes1{
+    background-color: burlywood;
+    border: 2px solid black;
+    z-index: 1;
+}
+
+.boxes2{
+    background-color: orange;
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    z-index: -1;
+}
+.container-bo{
+    width: 100%;
+    height:1200px;
+    margin-top: 200px;
+    border: 2px solid red;
+}
+.bo1{
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+    float: left;
+    clear: right;
+}
+.bo2{
+    background-color: olive;
+    width: 200px;
+    height: 200px;
+    float: right;
+    clear: left;
+}
+.bo3{
+    background-color: mediumaquamarine;
+    width: 200px;
+    height: 200px;
+    float: left;
+    clear: right;
+}
+.bo4{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    float: right;
+    clear: left;
+    color: white;
+}
+.bo5{
+    background-color: palegoldenrod;
+    width: 200px;
+    height: 200px;
+    float: left;
+    clear: right;
+}
